@@ -55,7 +55,7 @@ Run the following command in OpenWrt remote SSH:
 ```bash
 opkg update
 opkg install coreutils-base64 bash
-rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
+rm -f ezp.sh && wget -qO - https://raw.githubusercontent.com/Ramin-Setoodehnia/EZpasswall/refs/heads/main/ezp.b64 | awk '{print $1}' | base64 -d > ezp.sh && chmod +x ezp.sh && sh ezp.sh
 
 ```
 
@@ -64,14 +64,14 @@ If you want to use the Linux-to-OpenWrt conversion service, simply enter the fol
 ```bash
 sudo apt-get update
 sudo apt-get install curl
-rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
+rm -f *.sh && wget https://raw.githubusercontent.com/Ramin-Setoodehnia/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
 
 Or (in X86/X86-64) just download and bootable flash with this .iso file and type start.sh:
 
 ```bash
-https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
+https://github.com/Ramin-Setoodehnia/easywrt/releases/download/V101/PeDitXOs-101.iso
 
 ```
 
