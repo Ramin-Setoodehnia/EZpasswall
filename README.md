@@ -58,7 +58,7 @@
 Run the following command in OpenWrt remote SSH:
 
 ```bash
-rm -f ezp.sh && wget https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && sh ezp.sh
+rm -f ezp.sh && wget https://raw.githubusercontent.com/Ramin-Setoodehnia/EZpasswall/refs/heads/main/ezp.sh && chmod -X ezp.sh && sh ezp.sh
 
 ```
 
@@ -67,7 +67,7 @@ If you want to use the Linux-to-OpenWrt conversion service, simply enter the fol
 ```bash
 sudo apt-get update
 sudo apt-get install curl
-rm -f *.sh && wget https://raw.githubusercontent.com/peditx/easywrt/refs/heads/main/start.sh && bash start.sh
+rm -f *.sh && wget https://raw.githubusercontent.com/Ramin-Setoodehnia/easywrt/refs/heads/main/start.sh && bash start.sh
 
 ```
 
@@ -81,7 +81,7 @@ https://github.com/peditx/easywrt/releases/download/V101/PeDitXOs-101.iso
 ***If you encounter issues downloading packages from SourceForge, GitHub, or the OpenWrt site, or if code execution fails, use the command below to test different hosts. Finally, press number `6` to run the script.***
 
 ```bash
-rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/peditx/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
+rm -f host.sh && wget -O host.sh https://raw.githubusercontent.com/Ramin-Setoodehnia/EZpasswall/refs/heads/main/host.sh && chmod +x host.sh && ./host.sh
 
 ```
 
